@@ -1,0 +1,78 @@
+nav {
+	height: 70px;
+	background-color: orange;
+	width: 100%;
+}
+
+ul {
+	text-decoration: none;
+	float: right;
+	margin-right: 20px;
+	font-size: 18px;
+}
+
+li {
+	display: inline-block;
+	padding: 20px;
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	padding: 20px;
+	border-radius: 50%;
+	background-color: black;
+	color: white;
+	text-decoration: none;
+}
+
+section {
+	text-align: center;
+}
+
+button {
+	width: 15%;
+	padding: 20px;
+	margin: 10px; 
+	color: white;
+	font-size: 12px;
+	border-radius: 50%;
+	border: none;
+
+}
+
+#who {
+	background-color: black;
+}
+
+#what {
+	background-color: green;
+}
+
+#when {
+	background-color: red;
+}
+
+
+#who:active {
+	font-weight: bold;
+	color: black;
+	background-color: grey;
+}
+
+#what:active {
+	font-weight: bold;
+	color: black;
+	background-color: turquoise;
+}
+
+#when:active {
+	font-weight: bold;
+	color: black;
+	background-color: yellow;
+}
+
+
+
